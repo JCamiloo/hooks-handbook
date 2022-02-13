@@ -1,5 +1,5 @@
 import { useForm } from '../../hooks/useForm';
-import './effects.css';
+import '../01-useState/counter.css';
 
 export const FormWithCustomHook = () => {
   const [formValues, handleInputChange] = useForm({
