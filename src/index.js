@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { MultipleCustomHooks } from './components/0-examples/MultipleCustomHooks';
+import { RefExample } from './components/03-useRef/RefExample';
 
 ReactDOM.render(
-  <MultipleCustomHooks />,
+  <RefExample />,
   document.getElementById('root')
 );

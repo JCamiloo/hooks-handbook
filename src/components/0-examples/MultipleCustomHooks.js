@@ -36,7 +36,7 @@ export const MultipleCustomHooks = () => {
             className="btn btn-primary me-2"
             onClick={() => decrement()}
           >
-            Anterior
+            Previous
           </button>
         )
       }
@@ -45,7 +45,7 @@ export const MultipleCustomHooks = () => {
         className="btn btn-primary"
         onClick={() => increment()}
       >
-        Siguiente
+        Next
       </button>
     </div>
   )

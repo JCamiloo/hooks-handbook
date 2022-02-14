@@ -57,7 +57,7 @@ export const FormWithCustomHook = () => {
       </div>
 
       <button type="submit" className="btn btn-primary mt-3">
-        Guardar
+        Save
       </button>
     </form>
   )
