@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { RefExample } from './components/03-useRef/RefExample';
+import { Layout } from './components/04-useLayoutEffect/Layout';
 
 ReactDOM.render(
-  <RefExample />,
+  <Layout />,
   document.getElementById('root')
 );
