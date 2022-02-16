@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { CallbackHook } from './components/05-memos/CallbackHook';
+import { TodoApp } from './components/06-useReducer/TodoApp';
 
 ReactDOM.render(
-  <CallbackHook />,
+  <TodoApp />,
   document.getElementById('root')
 );

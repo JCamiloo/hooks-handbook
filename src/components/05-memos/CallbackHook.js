@@ -1,6 +1,6 @@
 import { useCallback, useState } from 'react';
-import '../01-useState/counter.css';
 import { ShowIncrement } from './ShowIncrement';
+import '../01-useState/counter.css';
 
 export const CallbackHook = () => {
   const [counter, setCounter] = useState(10);
